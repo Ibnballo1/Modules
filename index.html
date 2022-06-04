@@ -7,23 +7,57 @@
     <link rel="stylesheet" href="index.css" type="text/css">
     <title>AwesomeBook- Modules</title>
 </head>
-<body>
-    <main>
-        <section class="container">
-            <h1 class="">Awesome Books</h1>
-            <div class="book-list" id="book-list">
+<body onload="renderSection('addBook')">
+    <header>
+        <div class="container">
+            <a href="#"  class="logo">
+             Awesome Book
+            </a>
+            <nav>
+                <ul class="nav">
+                    <li><a id="list-book" class="nav-link" href="#"  >List</a></li>
+                    <li><a id="new-book" class="nav-link"  href="#" >Add</a></li>
+                    <li><a id="contact" class="nav-link" href="#" >Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="dateTime" id="date"></div>
+    </header>
+   
+    <section class="wrapper" id="listBook">
+        <h1 class="title">All Awesome Books</h1>
+        <div class="book-list" id="book-list">
+                
+        </div>
+        <div class="line"> </div>
+    </section>
 
-            </div>
-            <div class="add-book">
-                <form class="add-form" id="add-form">
-                    <input type="text" id="title" placeholder="Title" class="form-control"> <br>
-                    <input type="text" id="author" placeholder="Author" class="form-control"> <br>
-                    <input type="submit" class="add-btn" value="Add" id="add-btn">
-                </form>
-            </div>
+    <section class="add-book" id="addBook">
+        <h2 class="add-title">Add a new  book</h2>
+        <form class="add-form" id="add-form">
+            <input type="text" id="title" placeholder="Title" class="form-control">
+            <input type="text" id="author" placeholder="Author" class="form-control">
+            <input type="submit" class="add-btn" value="Add" id="add-btn">
+        </form>
+    </section>
 
-        </section>
-    </main>
-    <script src="index.js"></script>
+    <section class="contact-page" id="contact-section">
+        <h2 class="contact-title">Contact information</h2>
+        <div class="contact-texts">
+            <p class="contact-txt">Do have any questions or you just want to say "Hello"?</p>
+            <p class="contact-txt reach-us">You can reach out to us!</p>
+        </div>
+        <ul class="contact-list">
+            <li class="contact-list-items">Our e-mail: uppert83@mail.com</li>
+            <li class="contact-list-items">Our phone number: +251955986083</li>
+            <li class="contact-list-items">Our address: Streetname 22, 84503 City, Country</li>
+        </ul>
+    </section>
+
+    <footer class="footer">
+        <p class="copyright">Copyright <span>Worash & Bello (2022)</span></p>
+    </footer>
+
+    <script src="index.js" type="module"></script>
 </body>
 </html>
