@@ -79,7 +79,7 @@ addForm.addEventListener('submit', (e) => {
     author.value = '';
   }
 });
-function renderSection(page) {
+const renderSection = (page) => {
   switch (page) {
     case 'listBook':
       bookListing.style.display = 'flex';
