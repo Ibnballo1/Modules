@@ -1,16 +1,10 @@
-import Book from "./modules/objects";
-
-const listBook = document.getElementById('book-list');
-const addForm = document.getElementById('add-form');
-const bookListing = document.getElementById('listBook');
-const bookReg = document.getElementById('addBook');
-const contact = document.getElementById('contact-section');
-
-const listLink = document.getElementById('list-book');
-const addLink = document.getElementById('new-book');
-const contactLink = document.getElementById('contact');
-const date = document.getElementById('date');
-
+/* eslint-disable linebreak-style */
+/* eslint-disable import/newline-after-import */
+/* eslint-disable linebreak-style */
+import Book from './modules/objects.js';
+import {
+  listBook, addForm, bookListing, bookReg, contact, listLink, addLink, contactLink,
+} from './modules/variables.js';
 class UI {
   static getBooks() {
     let books;
@@ -136,7 +130,7 @@ contactLink.addEventListener('click', () => {
 window.onload = () => {
   renderSection('listBook');
 };
-const dateTime = new Date(Date.now());
-date.textContent = dateTime.toUTCString();
+/* const dateTime = new Date(Date.now());
+date.textContent = dateTime.toUTCString(); */
 
 UI.displayBooks();
