@@ -1,182 +1,180 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  header {
-    height: 80px;
-    border: 2px solid #111;
-    margin: 1rem 5%;
-    width: 90%;
-  }
-  
-  .logo {
-    color: #111;
-    font-size: 1.5rem;
-  }
-  
-  .nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-  }
-  
-  .nav-link {
-    color: #111;
-    text-align: center;
-    padding: 0.5rem;
-  }
-  
-  .nav-link:hover {
-    color: gray;
-  }
-  
-  #date {
-    margin: 2rem 5%;
-    float: right;
-  }
-  
-  .container {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 1.5rem;
-    padding-left: 4rem;
-    padding-right: 4rem;
-  }
-  
-  #list-book::after,
-  #new-book::after {
-    content: '';
-    display: inline;
-    padding-right: 0.5rem;
-    border-right: 2px solid #111;
-  }
-  
-  #listBook {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 90%;
-  }
-  
-  #listBook,
-  #addBook,
-  #contact-section,
-  .footer {
-    margin: 2rem 5%;
-  }
-  
-  .book-list {
-    border: 2px solid #111;
-    width: 100%;
-    margin: 15px 0 15px 0;
-  }
-  
-  .book-item {
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem;
-  }
-  
-  .gray-back {
-    background: gray;
-  }
-  
-  .white-back {
-    background-color: white;
-  }
-  
-  .remove-btn {
-    margin-left: 40%;
-    width: 100px;
-  }
-  
-  .line {
-    display: none;
-    border-bottom: 1px solid #111;
-    margin: 1rem 30%;
-    border-bottom-left-radius: 2rem;
-    border-bottom-right-radius: 2rem;
-    width: 20%;
-  }
-  
-  #addBook {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 3rem;
-    margin: 3rem 10%;
-    width: 90%;
-  }
-  
-  .title {
-    margin: 1rem 28%;
-  }
-  
-  .add-form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    width: 50%;
-  }
-  
-  .form-control {
-    border: 2px solid #000;
-    border-radius: 4px;
-    padding: 0.5rem;
-    margin: 0.5rem 0;
-  }
-  
-  .add-btn {
-    border: 2px solid #000;
-    box-shadow: 3px 3px #000;
-    align-self: flex-end;
-  }
-  
-  #contact-section {
-    margin: 4rem 0 8rem 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .contact-title {
-    margin-bottom: 2.5rem;
-  }
-  
-  .contact-texts {
-    margin-bottom: 20px;
-  }
-  
-  .contact-txt {
-    font-weight: 600;
-    font-size: 1rem;
-  }
-  
-  .contact-list li {
-    font-weight: 600;
-  }
-  
-  .footer {
-    border: 3px solid #000;
-    border-radius: 4px;
-    margin-bottom: 0;
-    padding: 0.75rem 1.5rem;
-    font-weight: 600;
-    position: fixed;
-    bottom: 1rem;
-    left: 0;
-    width: 90%;
-  }
-  
-  .copyright span {
-    margin-left: 10px;
-  }
-  
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  height: 80px;
+  border: 2px solid #111;
+  margin: 1rem 5%;
+  width: 90%;
+}
+
+.logo {
+  color: #111;
+  font-size: 1.5rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-link {
+  color: #111;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.nav-link:hover {
+  color: gray;
+}
+
+#date {
+  margin: 2rem 5%;
+  float: right;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1.5rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+#list-book::after,
+#new-book::after {
+  content: '';
+  display: inline;
+  padding-right: 0.5rem;
+  border-right: 2px solid #111;
+}
+
+#listBook {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+}
+
+#listBook,
+#addBook,
+#contact-section,
+.footer {
+  margin: 2rem 5%;
+}
+
+.book-list {
+  border: 2px solid #111;
+  width: 100%;
+  margin: 15px 0 15px 0;
+}
+
+.book-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.gray-back {
+  background: gray;
+}
+
+.white-back {
+  background-color: white;
+}
+
+.remove-btn {
+  margin-left: 40%;
+  width: 100px;
+}
+
+.line {
+  display: none;
+  border-bottom: 1px solid #111;
+  margin: 1rem 30%;
+  border-bottom-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  width: 20%;
+}
+
+#addBook {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  margin: 3rem 10%;
+  width: 90%;
+}
+
+.title {
+  margin: 1rem 28%;
+}
+
+.add-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 50%;
+}
+
+.form-control {
+  border: 2px solid #000;
+  border-radius: 4px;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+}
+
+.add-btn {
+  border: 2px solid #000;
+  box-shadow: 3px 3px #000;
+  align-self: flex-end;
+}
+
+#contact-section {
+  margin: 4rem 0 8rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-title {
+  margin-bottom: 2.5rem;
+}
+
+.contact-texts {
+  margin-bottom: 20px;
+}
+
+.contact-txt {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.contact-list li {
+  font-weight: 600;
+}
+
+.footer {
+  border: 3px solid #000;
+  border-radius: 4px;
+  margin-bottom: 0;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  position: fixed;
+  bottom: 1rem;
+  left: 0;
+  width: 90%;
+}
+.copyright span {
+  margin-left: 10px;
+}
