@@ -1,0 +1,28 @@
+.container {
+    margin: 50px auto;
+    width: 70%;
+  }
+  
+  .book {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #remove-btn {
+    width: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .line {
+    border-bottom: 1px solid gray;
+    margin-bottom: 10px;
+  }
+  
+  .form-control {
+    margin: 5px;
+    padding: 10px;
+  }
+  
+  .add-btn {
+    width: 100px;
+  }
