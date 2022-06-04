@@ -117,7 +117,8 @@ const renderSection = (page) => {
       contactLink.style.color = 'black';
       break;
   }
-}
+};
+
 listLink.addEventListener('click', () => {
   renderSection('listBook');
 });
