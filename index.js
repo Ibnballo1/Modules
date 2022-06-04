@@ -5,6 +5,7 @@ import Book from './modules/objects.js';
 import {
   listBook, addForm, bookListing, bookReg, contact, listLink, addLink, contactLink,
 } from './modules/variables.js';
+
 class UI {
   static getBooks() {
     let books;
